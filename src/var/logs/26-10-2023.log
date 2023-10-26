@@ -1,0 +1,38 @@
+[2023-10-26 07:50:07] SlimMonoLogger.CRITICAL: PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\PDO\Database.php:34
+Stack trace:
+#0 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\PDO\Database.php(34): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue), Array)
+#1 D:\xampp\htdocs\inbefore-tin-tu-dong\src\dependencies.php(73): Slim\PDO\Database->__construct('mysql:host=loca...', 'root', 'mysql')
+#2 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\Helper\Set.php(228): {closure}(Object(Slim\Helper\Set))
+#3 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\Helper\Set.php(88): Slim\Helper\Set->Slim\Helper\{closure}(Object(Slim\Helper\Set))
+#4 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\Slim.php(232): Slim\Helper\Set->get('db')
+#5 D:\xampp\htdocs\inbefore-tin-tu-dong\src\models\Model.php(176): Slim\Slim->__get('db')
+#6 D:\xampp\htdocs\inbefore-tin-tu-dong\src\models\OptionModel.php(180): spark\models\Model->select(Array)
+#7 D:\xampp\htdocs\inbefore-tin-tu-dong\src\models\OptionModel.php(40): spark\models\OptionModel->autoloadOptions()
+#8 D:\xampp\htdocs\inbefore-tin-tu-dong\src\dependencies.php(99): spark\models\OptionModel->__construct()
+#9 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\Helper\Set.php(228): {closure}(Object(Slim\Helper\Set))
+#10 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\Helper\Set.php(88): Slim\Helper\Set->Slim\Helper\{closure}(Object(Slim\Helper\Set))
+#11 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\Slim.php(232): Slim\Helper\Set->get('options')
+#12 D:\xampp\htdocs\inbefore-tin-tu-dong\src\drivers\Views\ThemeManager.php(34): Slim\Slim->__get('options')
+#13 D:\xampp\htdocs\inbefore-tin-tu-dong\src\dependencies.php(142): spark\drivers\Views\ThemeManager->initEngine()
+#14 D:\xampp\htdocs\inbefore-tin-tu-dong\src\bootstrap.php(70): require('D:\\xampp\\htdocs...')
+#15 D:\xampp\htdocs\inbefore-tin-tu-dong\index.php(4): require('D:\\xampp\\htdocs...')
+#16 {main} [] []
+[2023-10-26 07:50:08] SlimMonoLogger.CRITICAL: PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\PDO\Database.php:34
+Stack trace:
+#0 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\PDO\Database.php(34): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue), Array)
+#1 D:\xampp\htdocs\inbefore-tin-tu-dong\src\dependencies.php(73): Slim\PDO\Database->__construct('mysql:host=loca...', 'root', 'mysql')
+#2 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\Helper\Set.php(228): {closure}(Object(Slim\Helper\Set))
+#3 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\Helper\Set.php(88): Slim\Helper\Set->Slim\Helper\{closure}(Object(Slim\Helper\Set))
+#4 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\Slim.php(232): Slim\Helper\Set->get('db')
+#5 D:\xampp\htdocs\inbefore-tin-tu-dong\src\models\Model.php(176): Slim\Slim->__get('db')
+#6 D:\xampp\htdocs\inbefore-tin-tu-dong\src\models\OptionModel.php(180): spark\models\Model->select(Array)
+#7 D:\xampp\htdocs\inbefore-tin-tu-dong\src\models\OptionModel.php(40): spark\models\OptionModel->autoloadOptions()
+#8 D:\xampp\htdocs\inbefore-tin-tu-dong\src\dependencies.php(99): spark\models\OptionModel->__construct()
+#9 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\Helper\Set.php(228): {closure}(Object(Slim\Helper\Set))
+#10 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\Helper\Set.php(88): Slim\Helper\Set->Slim\Helper\{closure}(Object(Slim\Helper\Set))
+#11 D:\xampp\htdocs\inbefore-tin-tu-dong\src\framework\Slim.php(232): Slim\Helper\Set->get('options')
+#12 D:\xampp\htdocs\inbefore-tin-tu-dong\src\drivers\Views\ThemeManager.php(34): Slim\Slim->__get('options')
+#13 D:\xampp\htdocs\inbefore-tin-tu-dong\src\dependencies.php(142): spark\drivers\Views\ThemeManager->initEngine()
+#14 D:\xampp\htdocs\inbefore-tin-tu-dong\src\bootstrap.php(70): require('D:\\xampp\\htdocs...')
+#15 D:\xampp\htdocs\inbefore-tin-tu-dong\index.php(4): require('D:\\xampp\\htdocs...')
+#16 {main} [] []
