@@ -3,7 +3,7 @@
 $bgs = ['primary', 'secondary', 'dark', 'info', 'warning', 'danger'];
 $key = array_rand($bgs);
 ?>
-<div class="hero-header bg-<?= $bgs[$key]; ?> mb-2">
+<!-- <div class="hero-header bg-<?= $bgs[$key]; ?> mb-2">
     <div class="container">
         <h3 class="m-0 p-0">
          <?= e(__(
@@ -13,7 +13,7 @@ $key = array_rand($bgs);
          )); ?>
   </h3>
 </div>
-</div>
+</div> -->
 <div class="container px-0 px-md-3">
   <div class="row no-gutters">
     <div class="col-12 col-md-2 p-0"><div class="sidebar sidebar-left">

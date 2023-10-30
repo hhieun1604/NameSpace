@@ -46,9 +46,7 @@
                     do_action('feed_content_before');
                     ?>
 
-            <div class="adblock">
-                <?= get_option('ad_unit_8'); ?>
-            </div>
+          
             <?= $t['post.post_content']; ?>
             <?php
             /**

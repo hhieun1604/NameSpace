@@ -12,14 +12,17 @@
                 <?= __('Feed name, for reference purpose.'); ?>
             </div>
             </div>
-            <div class="form-group">
+            
+            <!-- <div class="form-group">
             <label class="form-label" for="feed_url"><?= __('Feed URL'); ?></label>
             <input type="url" name="feed_url" id="feed_url" class="form-control" value="<?= sp_post('feed_url'); ?>" maxlength="200" required>
             <div class="form-text text-muted">
                 <?= __('URL to the feed.'); ?>
             </div>
-            </div>
+            </div> -->
 
+
+            
             <div class="form-group">
             <label class="form-label" for="feed_logo_url"><?= __('Feed Logo URL'); ?></label>
             <input type="text" name="feed_logo_url" id="feed_logo_url" class="form-control" value="<?= sp_post('feed_logo_url'); ?>" maxlength="250">

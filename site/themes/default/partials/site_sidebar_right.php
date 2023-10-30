@@ -9,7 +9,7 @@ do_action('feed_right_sidebar_before');
 
 <div class="sidebar-block">
   <h4 class="sidebar-heading"><span><?= __('trending', _T); ?> <?= svg_icon('trending-up', 'svg-md text-primary'); ?></span></h4>
-  <div class="sidebar-body p-2 bg-white">
+  <div class="sidebar-body p-2 bg-white bg-color">
     <div class="row no-gutters">
       <?php foreach ($t['trends'] as $key => $query) : ?>
         <div class="col-6">

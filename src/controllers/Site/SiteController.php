@@ -636,7 +636,7 @@ class SiteController extends Controller
             var gcse = document.createElement('script');
             gcse.type = 'text/javascript';
             gcse.async = false;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            gcse.src = 'https://cse.google.com/cse.js?cx=171e6951063f848ff';
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(gcse, s);
         })();
